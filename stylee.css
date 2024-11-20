@@ -1,0 +1,210 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 220mm;
+    height: 297mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.container .card-one {
+    padding: 40px 20px;
+    padding-left: 35px;
+    background-color: rgb(243, 190, 190);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.811);
+}
+
+.container .card-one .profile{
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid;
+    background-position: center top;
+    color: black;
+    background-image: url(hm.jpg);
+    background-size: 100%;
+}
+
+.about-me{
+    padding: 20px;
+    margin-left: -15px;    
+}
+
+.skill {
+    padding: 20px;
+    margin-left: -15px;
+}
+
+.skill > hr{
+    margin-bottom: 20px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #f3f3f333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 6px;
+    background-color: white;
+ }
+
+.progress-bar-1 {
+    width: 80%;
+    height: 6px;
+    background-color: white;
+}
+
+.progress-bar-2 {
+    width: 60%;
+    height: 6px;
+    background-color: white;
+}
+
+.progress-bar-3 {
+    width: 50%;
+    height: 6px;
+    background-color: white;
+}
+
+.progress-bar-4 {
+    width: 60%;
+    height: 6px;
+    background-color: white;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media > hr {
+    margin-bottom: 20px;
+}
+
+.media {
+    display: flex;
+    margin-left: 20px;
+}
+
+.social-icon1 {
+    padding: 5px;
+    list-style: none;
+    margin: 20px;
+    align-items: center;
+    margin-left: -15px;
+}
+.social-icon2 {
+    padding: 5px;
+    list-style: none;
+    margin: 20px;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.media-icon {
+    padding: 0.8rem;
+    margin-left: -15px;
+}
+
+.card-two {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.name {
+    margin-left: 25px;
+}
+
+.contact {
+    margin: 20px;
+    list-style: none;
+}
+
+.icon1 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon2 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon3 {
+    display: flex;
+}
+
+.education {
+    margin-top: 50px;
+}
+
+.education > h2 {
+    margin-left: 20px;
+}
+
+.education.list { 
+    margin-top: 20px;
+}
+
+.education-item {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.organisasi {
+    margin-top: 50px;
+}
+
+.organisasi > h2 {
+    margin-left: 20px;
+}
+
+.organisasi-list {
+    margin-top: 20px;
+}
+
+.organisasi-item {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.committee {
+    margin-top: 50px;
+}
+
+.committee > h2 {
+    margin-left: 20px;
+}
+
+.committee-list {
+    margin-top: 20px;
+}
+
+.committee-item {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.icon {
+    display: flex;
+}
